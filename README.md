@@ -3,15 +3,15 @@
 ### 后端项目说明
 技术选型：
 
-框架：Egg.js
+- 框架：Egg.js
 
-数据库：Mysql
+- 数据库：Mysql
 
-ORM：Sequelize
+- ORM：Sequelize
 
-运行环境：Linux/CentOS
+- 运行环境：Linux/CentOS
 
-其他：egg-sequelize、腾讯云COS SDK、小程序Faas(Function as a server) SDK;
+- 其他：egg-sequelize、腾讯云COS SDK、小程序Faas(Function as a server) SDK;
 
 传统MVC架构，view层使用EJS模板引擎来驱动Vue build后的Dist文件，挂载index后使用egg-cluster来管理进程，后续若无Worker agent需求会
 修改为pm2来守护进程，据说runtime operation log容易实现；（主要是我不会多进程，没错就是这么理直气壮！）
