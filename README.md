@@ -1,6 +1,6 @@
 ## Movie ticket微信票务小程序-后端
 
-###后端项目说明
+### 后端项目说明
 技术选型：
 
 框架：Egg.js
@@ -27,7 +27,7 @@ mysql使用了sequelize这个ORM来操作数据库，回忆起hibernate泪流满
 
 
 
-###Explain
+### Explain
 Movie ticket是一款在线票务、购物小程序，主要针对国内海外人士在线购票的一款在线购物系统。
 
 
@@ -69,13 +69,13 @@ wx-scheme-server(后端)；
 </table>
 
 
-###Example
+### Example
 
 <img src="https://raw.githubusercontent.com/gejigejigeji/Movie-ticket-Wechart/master/images-folder/view1.png" width="281px" height="609px" /> 
 
 <img src="https://raw.githubusercontent.com/gejigejigeji/Movie-ticket-Wechart/master/images-folder/view3.jpg" width="281px" height="609px" /> 
 
-###花里胡哨的Banner
+### 花里胡哨的Banner
 
 <img src="https://raw.githubusercontent.com/gejigejigeji/Movie-ticket-Wechart/master/images-folder/view2.gif" width="281px" height="609px" /> 
 
