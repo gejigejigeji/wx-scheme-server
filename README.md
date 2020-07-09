@@ -13,12 +13,7 @@
 
 - 其他：egg-sequelize、腾讯云COS SDK、小程序Faas(Function as a server) SDK;
 
-传统MVC架构，view层使用EJS模板引擎来驱动Vue build后的Dist文件，挂载index后使用egg-cluster来管理进程，后续若无Worker agent需求会
-修改为pm2来守护进程，据说runtime operation log容易实现；（主要是我不会多进程，没错就是这么理直气壮！）
-
-未考虑Nginx进行代理转发与负载均衡（我觉得Node HTTP稳中带狠 -.-^）
-
-middleware里简单封装了暂时遇到的permission检查，主要检查JS token和csrf（其实是一个意思）来防止Post，不过毫无卵用，图个心里安慰，爬虫只要带着Egg-cookie就直接通过csrf了；
+传统MVC架构，view层使用EJS模板引擎来驱动Vue build后的Dist文件，挂载index后使用egg-cluster来管理进程
 
 mysql使用了sequelize这个ORM来操作数据库，回忆起hibernate泪流满面，sequelize是真爱，通过简单的create model和control里impor model即可对数据库进行CRUD操作；
 
